@@ -48,6 +48,7 @@ namespace KitchenAchievementTracker
                 .AddSpacer()
                 .AddSpacer();
 
+            PrefManager.RegisterMenu(PreferenceSystemManager.MenuType.MainMenu);
             PrefManager.RegisterMenu(PreferenceSystemManager.MenuType.PauseMenu);
         }
 
